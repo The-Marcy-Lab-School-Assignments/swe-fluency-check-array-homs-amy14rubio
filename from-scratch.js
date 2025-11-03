@@ -32,7 +32,9 @@ const getEvenNumbers = (nums) => nums.filter((num) => num % 2 === 0);
 console.log(getEvenNumbers(sampleNumbers));
 
 // Problem 5
-const getLargestNumber = (numbers) => {};
+const getLargestNumber = (numbers) =>
+  numbers.reduce((max, num) => (num > max ? (max = num) : max, max), 0);
+console.log(getLargestNumber(sampleNumbers));
 
 /* -------------------------------------------------- */
 /* --------------OBJECT ARRAY PROBLEMS--------------- */
