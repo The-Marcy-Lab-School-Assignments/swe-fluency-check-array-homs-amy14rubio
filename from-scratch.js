@@ -65,7 +65,9 @@ const getActiveUsersUnder30 = (users) =>
 console.log(getActiveUsersUnder30(sampleUsers));
 
 // Problem 9
-const getTotalScore = (users) => {};
+const getTotalScore = (users) =>
+  users.reduce((sum, user) => sum + user.score, 0);
+console.log(getTotalScore(sampleUsers));
 
 // Problem 10
 const sortUsersByScoreDescending = (users) => {};
