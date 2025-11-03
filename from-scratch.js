@@ -13,7 +13,8 @@ const printEveryWord = (words) => words.forEach((word) => console.log(word));
 printEveryWord(sampleWords);
 
 // Problem 2
-const getStringLengths = (strings) => {};
+const getStringLengths = (strings) => strings.map((string) => string.length);
+console.log(getStringLengths(sampleWords));
 
 // Problem 3
 const sortWordsZtoA = (words) => {};
