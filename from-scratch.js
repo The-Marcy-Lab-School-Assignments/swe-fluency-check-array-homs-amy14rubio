@@ -60,7 +60,9 @@ const getUserNames = (users) => users.map((user) => user.name);
 console.log(getUserNames(sampleUsers));
 
 // Problem 8
-const getActiveUsersUnder30 = (users) => {};
+const getActiveUsersUnder30 = (users) =>
+  users.filter((user) => user.age < 30 && user.isActive === true);
+console.log(getActiveUsersUnder30(sampleUsers));
 
 // Problem 9
 const getTotalScore = (users) => {};
