@@ -56,7 +56,8 @@ const printUserNamesAndScores = (users) =>
 printUserNamesAndScores(sampleUsers);
 
 // Problem 7
-const getUserNames = (users) => {};
+const getUserNames = (users) => users.map((user) => user.name);
+console.log(getUserNames(sampleUsers));
 
 // Problem 8
 const getActiveUsersUnder30 = (users) => {};
