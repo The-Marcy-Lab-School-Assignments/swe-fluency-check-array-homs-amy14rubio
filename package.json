@@ -1,0 +1,20 @@
+{
+  "name": "swe-fluency-check-array-homs-amy14rubio",
+  "version": "1.0.0",
+  "description": "For all of the following problems, use an array higher order method to solve the problem. You should not use any for or while loops!",
+  "homepage": "https://github.com/The-Marcy-Lab-School-Assignments/swe-fluency-check-array-homs-amy14rubio#readme",
+  "bugs": {
+    "url": "https://github.com/The-Marcy-Lab-School-Assignments/swe-fluency-check-array-homs-amy14rubio/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Marcy-Lab-School-Assignments/swe-fluency-check-array-homs-amy14rubio.git"
+  },
+  "license": "ISC",
+  "author": "Amyruth Rubio",
+  "type": "commonjs",
+  "main": "from-scratch.js",
+  "scripts": {
+    "test": "jest"
+  }
+}

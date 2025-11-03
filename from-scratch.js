@@ -74,3 +74,5 @@ const sortUsersByScoreDescending = (users) =>
   users.sort((a, b) => b.score - a.score);
 sortUsersByScoreDescending(sampleUsers);
 console.log(sampleUsers);
+
+module.exports = { printEveryWord };
